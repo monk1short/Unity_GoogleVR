@@ -28,6 +28,7 @@ public class VRInteractionObject : MonoBehaviour
     public void OnPoninterEnter()
     {
         onEnter.Invoke();
+        print("注視點看到");
     }
 
     /// <summary>
